@@ -22,23 +22,7 @@ dt {
     margin: 15px;
 }
 
-.button-open:hover:after {
-    content: "Select this one";
-    font-family: Arial;
-    position: absolute;
-    height: 1.25rem;
-    background-image: linear-gradient(to right, #26b482 12%, #93F9B9 30%);
-    color: black;
-}
 
-.button-close:hover:after {
-    content: "Remove this one";
-    font-family: Arial;
-    position: absolute;
-    height: 1.25rem;
-    background-image: linear-gradient(to right, #bd1d1d 12%, #ff7689 30%);
-    color: black;
-}
 
 #citySelect {
     margin: 15px;
@@ -133,14 +117,7 @@ ul li.checked {
     right: 0%;
 }
 
-.close:hover:after {
-    content: "Remove this choice";
-    font-family: Arial;
-    position: absolute;
-    height: 1.25rem;
-    background-color: rgb(183, 243, 188);
-    color: black;
-}
+
 
 ul {
     list-style-type: none;
@@ -173,27 +150,10 @@ ul {
     -webkit-transform: rotate(-135deg);
 }
 
-.up:hover:after {
-    transform: rotate(135deg);
-    content: "Move this one up";
-    font-family: Arial;
-    position: absolute;
-    height: 1.25rem;
-    background-color: rgb(183, 243, 188);
-    color: black;
-}
+
 
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
 
-.down:hover:after {
-    transform: rotate(-45deg);
-    content: "Move this one down";
-    font-family: Arial;
-    position: absolute;
-    height: 1.25rem;
-    background-color: rgb(183, 243, 188);
-    color: black;
-}
